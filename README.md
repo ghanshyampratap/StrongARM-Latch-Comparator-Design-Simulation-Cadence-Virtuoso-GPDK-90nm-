@@ -1,4 +1,4 @@
-# ⚡ StrongARM Latch Comparator – Design & Simulation (Cadence Virtuoso | GPDK 90nm)
+# ⚡ StrongARM Latch Comparator – Design & Simulation 
 
 ## 📘 INTRODUCTION
 A StrongARM latch is a high-speed dynamic comparator widely used in ADCs and mixed-signal ICs. It offers:
