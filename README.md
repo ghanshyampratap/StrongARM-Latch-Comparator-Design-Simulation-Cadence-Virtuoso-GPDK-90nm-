@@ -1,6 +1,6 @@
-# ⚡ StrongARM Latch Comparator – Design & Simulation 
+#  StrongARM Latch Comparator – Design & Simulation 
 
-## 📘 INTRODUCTION
+##  INTRODUCTION
 A StrongARM latch is a high-speed dynamic comparator widely used in ADCs and mixed-signal ICs. It offers:
 
 - Zero static power consumption  
@@ -33,7 +33,7 @@ This project involves designing and simulating the StrongARM latch in **Cadence 
 - **M7:** Tail NMOS (clock-controlled)  
 - **M8–M9:** PMOS precharge devices
   
-### 🔄 Operation
+###  Operation
 - **CLK = 0 (Precharge Phase):**  
   Outputs Out+ and Out− charged to VDD, tail NMOS OFF  
 
@@ -55,7 +55,7 @@ The SR latch is added to:
 - Hold output state between cycles  
 
 ---
-## 📊 RESULT ANALYSIS
+##  RESULT ANALYSIS
 
 ### About Simulation Software
 Cadence Virtuoso provides:
@@ -94,7 +94,7 @@ Cadence Virtuoso provides:
 
 ---
 
-## 🔋 LOW POWER TECHNIQUE (Isolation Transistors)
+##  LOW POWER TECHNIQUE (Isolation Transistors)
 In the standard StrongARM latch, a momentary direct path from VDD → GND causes **short-circuit dynamic power**.
 
 To reduce this, **isolation transistors** are added:
@@ -136,7 +136,7 @@ The output correctly shows:
 ---
 
 
-## 🏁 CONCLUSION
+##  CONCLUSION
 The StrongARM latch was successfully designed and simulated in Cadence Virtuoso using GPDK 90nm. The comparator demonstrates:
 
 - High-speed operation  
@@ -148,7 +148,7 @@ This work reinforces understanding of dynamic comparators, clocked operation, an
 
 ---
 
-## 📚 REFERENCES
+##  REFERENCES
 1. B. Razavi, *Design of Analog CMOS Integrated Circuits*, McGraw-Hill, 2001  
 2. T. Kobayashi et al., IEEE JSSC, 1993  
 3. J. Yuan & C. Svensson, IEEE JSSC, 1989  
